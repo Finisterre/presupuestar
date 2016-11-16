@@ -1,0 +1,74 @@
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+    max-width: 400px;
+
+}
+
+@media (max-width: 3000px){
+    .home-gal{
+
+        height:250px ;
+        overflow: hidden;
+    }
+}
+
+
+@media(max-width: 1500px){
+    .home-gal{
+
+        height:195px ;
+        overflow: hidden;
+    }
+
+}
+
+@media(max-width:1000px){
+    .home-gal{
+
+        height:140px ;
+        overflow: hidden;
+    }
+
+@media(max-width: 800px){
+    .home-gal{
+
+        height:125px ;
+        overflow: hidden;
+    }
+
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+
+    .home-gal{
+
+        height:140px ;
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+}
+
+
+
+.thumbnail{
+    min-height: 415px;
+}
+
